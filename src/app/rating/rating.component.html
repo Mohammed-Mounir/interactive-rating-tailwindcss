@@ -26,6 +26,7 @@
   }
 </div>
 <button
+  [disabled]="!selectedRate"
   (click)="onSubmit()"
   class="bg-orange-500 hover:bg-white hover:text-black uppercase text-base font-semibold w-full py-[0.6rem] rounded-full"
 >
